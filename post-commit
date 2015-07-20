@@ -1,0 +1,12 @@
+#!/bin/sh
+# Git-changelog hook by @michaelschultz
+# michaelschultz.com
+#
+# Place this file inside project-directory/.git/hooks/ and
+# edit the source path to run git-changelog immediately after every commit
+#
+# example path: ~/Dropbox/Scripts/git-changelog.sh
+
+  source PATH/TO/git-changelog.sh
+
+# End
