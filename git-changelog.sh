@@ -4,10 +4,10 @@
 
 
 # INSTRUCTIONS:
-# Run on current git respoitory with $ bash git-changelog.sh
+# Run on current git respoitory with $ sh PATH/TO/git-changelog.sh
 #
-# $ bash git-changelog -open to open changelog after generation
-# $ bash git-changelog -force to generate new changelog if you get stuck in a weird state
+# $ sh PATH/TO/git-changelog -open to open changelog after generation
+# $ sh PATH/TO/git-changelog -force to generate new changelog if you get stuck in a weird state
 
 
 # Examples of well designed changelogs
