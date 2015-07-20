@@ -14,6 +14,12 @@ located at /User/username/.bash_profile on OSX.
 
 `alias changelog='sh ~/Dropbox/Files/git-changelog.sh'`
 
+#### (optional) Automatically build new changelog on each commit
+Place the **post-commit** file inside project-directory/.git/hooks/ and
+edit the source path to run git-changelog immediately after every commit
+
+example path: ~/Dropbox/Scripts/git-changelog.sh
+
 ## Commands
 Run on current git respoitory with `$ sh PATH/TO/git-changelog.sh`
 
